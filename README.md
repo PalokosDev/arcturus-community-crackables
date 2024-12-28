@@ -37,7 +37,7 @@ Ein Plugin für den Arcturus Habbo Emulator, das Community-basierte Crackables i
 
 2. Repository klonen:
 ```bash
-git clone https://github.com/DEIN-USERNAME/community-crackables.git
+git clone https://github.com/PalokosDev/arcturus-community-crackables.git
 cd community-crackables
 ```
 
