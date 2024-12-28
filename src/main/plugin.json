@@ -1,0 +1,26 @@
+{
+    "name": "Community Crackables",
+    "description": "Ein Plugin für Community-basierte Crackables mit Belohnungssystem",
+    "version": "1.0.0",
+    "author": "Palokos",
+    "main": "com.palokos.communitycrackable.CommunityCrackablePlugin",
+    "restart_required": true,
+    "dependencies": [],
+    "permissions": [
+        "cmd_createcrackable"
+    ],
+    "commands": [
+        {
+            "name": "createcrackable",
+            "permission": "cmd_createcrackable",
+            "description": "Erstellt ein neues Community Crackable",
+            "minimum_rank": 7
+        }
+    ],
+    "settings": {
+        "database_prefix": "community_crackables_",
+        "bubble_alert_enabled": true,
+        "progress_updates_enabled": true,
+        "progress_update_interval": 60
+    }
+}
